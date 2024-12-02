@@ -22,3 +22,4 @@ jobs:
           anykernel3: true
           anykernel3-url: https://github.com/frstprjkt/AnyKernel3
           extra-cmd: LLVM=1
+          package-name: frstprjkts-sm6115-kernel-flasher.zip
