@@ -25,3 +25,4 @@ jobs:
           anykernel3: true
           anykernel3-url: https://github.com/frstprjkt/AnyKernel3
           extra-cmd: LLVM=1 CONFIG_LTO_CLANG=y CONFIG_THINLTO=y
+          package-name: frstprjkt-random-kernel-flasher
