@@ -24,4 +24,5 @@ jobs:
           aosp-clang-version: r536225
           anykernel3: true
           anykernel3-url: https://github.com/frstprjkt/AnyKernel3
+          package-name: frstprjkt-random-kernel-flasher.zip
           extra-cmd: LLVM=1 CONFIG_LTO_CLANG=y CONFIG_LTO_CLANG_THIN=y CONFIG_LLVM_POLLY=y
