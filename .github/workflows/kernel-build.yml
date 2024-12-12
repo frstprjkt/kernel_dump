@@ -15,6 +15,8 @@ jobs:
           kernel-branch: main
           config: vendor/bengal-perf_defconfig
           arch: arm64
+          include-dtbo: true
+          include-dtb: true
           ksu: true
           ksu-other: true
           ksu-url: https://github.com/rsuntk/KernelSU
