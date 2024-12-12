@@ -21,9 +21,8 @@ jobs:
           ksu-other: true
           ksu-url: https://github.com/rsuntk/KernelSU
           ksu-version: main
-          aosp-gcc: true
-          aosp-clang: true
-          aosp-clang-version: r536225
+          aosp-gcc: false
+          other-clang-url: $(curl https://raw.githubusercontent.com/ZyCromerZ/Clang/main/Clang-main-link.txt)
           anykernel3: true
           anykernel3-url: https://github.com/frstprjkt/AnyKernel3
           extra-cmd: LLVM=1 CONFIG_LTO_CLANG=y CONFIG_THINLTO=y
